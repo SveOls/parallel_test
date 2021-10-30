@@ -1,0 +1,3 @@
+1. install fopenmp
+2. compile using the flag -fopenmp (e.g. gfortran -c -O3 foo.f90 -fopenmp)
+3. link using the same flag (e.g. gfortran -o output foo.o -fopenmp)
